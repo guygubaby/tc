@@ -2,6 +2,8 @@
 
 `tsconfig.json` base configs
 
+[![NPM version](https://img.shields.io/npm/v/@bryce-loskie/tc?color=a1b858&label=)](https://www.npmjs.com/package/@bryce-loskie/tc)
+
 ## Install
 
 ```bash
@@ -12,7 +14,7 @@ pnpm i -D @bryce-loskie/tc
 
 ### Library
 
-#### Library
+#### Normal Library
 
 ```json
 {
@@ -74,4 +76,4 @@ pnpm i -D @bryce-loskie/tc
 
 ## License
 
-MIT
+[MIT](./LICENSE) License © 2023 [guygubaby](https://github.com/guygubaby)
