@@ -1,0 +1,49 @@
+{
+  "name": "@bryce-loskie/tc",
+  "version": "0.1.0",
+  "description": "tsconfig.json base configs",
+  "keywords": [
+    "tsconfig",
+    "tsconfig-base",
+    "tsconfig.json",
+    "typescript-config"
+  ],
+  "homepage": "https://github.com/guygubaby/tc#README",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guygubaby/tc"
+  },
+  "author": "guygubaby@gmail.com",
+  "files": [
+    "*.json"
+  ],
+  "exports": {
+    "./package.json": "./package.json",
+    "./lib": {
+      "default": "./lib.json"
+    },
+    "./lib-react": {
+      "default": "./lib-react.json"
+    },
+    "./react": {
+      "default": "./react.json"
+    },
+    "./vue": {
+      "default": "./vue.json"
+    }
+  },
+  "scripts": {
+    "dev": "pnpm -r dev",
+    "build": "pnpm -r build",
+    "push": "npm publish --registry=https://registry.npmjs.com/"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "4.9.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@7.26.1"
+}

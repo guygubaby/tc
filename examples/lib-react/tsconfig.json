@@ -1,0 +1,8 @@
+{
+  "extends": "@bryce-loskie/tc/lib-react",
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src"
+  }
+}
